@@ -1,4 +1,4 @@
-package com.example.smartherdarchitecturecomponents
+package com.example.smartherdarchitecturecomponents.lifecycle_aware_components
 
 import android.util.Log
 import androidx.lifecycle.Lifecycle

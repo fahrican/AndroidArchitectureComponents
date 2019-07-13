@@ -1,8 +1,9 @@
-package com.example.smartherdarchitecturecomponents
+package com.example.smartherdarchitecturecomponents.lifecycle_aware_components
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.example.smartherdarchitecturecomponents.R
 
 class MainActivity : AppCompatActivity() {
 
