@@ -10,37 +10,37 @@ class MainActivityObserver : LifecycleObserver {
     private val TAG = "MainActivityObserver"
 
     @OnLifecycleEvent(Lifecycle.Event.ON_CREATE)
-    fun personalOnCreateEvent(){
+    fun personalOnCreateEvent() {
 
         Log.v(TAG, "Observer onCreate()")
     }
 
     @OnLifecycleEvent(Lifecycle.Event.ON_START)
-    fun personalOnStartEvent(){
+    fun personalOnStartEvent() {
 
         Log.v(TAG, "Observer onStart()")
     }
 
     @OnLifecycleEvent(Lifecycle.Event.ON_RESUME)
-    fun personalOnResumeEvent(){
+    fun personalOnResumeEvent() {
 
         Log.v(TAG, "Observer onResume()")
     }
 
     @OnLifecycleEvent(Lifecycle.Event.ON_PAUSE)
-    fun personalOnPauseEvent(){
+    fun personalOnPauseEvent() {
 
         Log.v(TAG, "Observer onPause()")
     }
 
     @OnLifecycleEvent(Lifecycle.Event.ON_DESTROY)
-    fun personalOnDestroyEvent(){
+    fun personalOnDestroyEvent() {
 
         Log.v(TAG, "Observer onDestroy()")
     }
 
     @OnLifecycleEvent(Lifecycle.Event.ON_STOP)
-    fun personalOnStopEvent(){
+    fun personalOnStopEvent() {
 
         Log.v(TAG, "Observer onStop()")
     }
