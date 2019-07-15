@@ -25,6 +25,7 @@ android {
 }
 
 def lifecycle_version = "2.0.0"
+def room_version = "2.2.0-alpha01" // 2.1.0 for latest stable version
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -35,6 +36,12 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
     // For Kotlin use kapt instead of annotationProcessor
     kapt "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
+    //Room
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+    // Test helpers
+    testImplementation "androidx.room:room-testing:$room_version"
+    //J-UNIT
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
